@@ -1,0 +1,28 @@
+{
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "cSpell.words": [
+    "Aktiengesellschaft",
+    "astype",
+    "autodocstring",
+    "dtype",
+    "virtualenvs",
+    "yapf"
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+  "python.analysis.fixAll": [
+    "source.convertImportFormat",
+    "source.unusedImports"
+  ],
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.addImport.heuristics": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  }
+}

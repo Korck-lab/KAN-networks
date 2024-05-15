@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Current File",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Python: Attach",
+        "type": "debugpy",
+        "request": "attach"        
+      },
+      {
+        "name": "Python: Module",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "enter-your-module-name",
+        "console": "integratedTerminal"
+      },
+      {
+        "name": "Python: Pytest",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "pytest",
+        "args": [
+          "-vv",
+          "tests"
+        ],
+        "justMyCode": true
+      }
+    ]
+  }
+  
