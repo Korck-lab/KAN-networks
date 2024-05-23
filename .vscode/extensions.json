@@ -1,10 +1,3 @@
 {
-    "recommendations": [
-        "njpwerner.autodocstring",
-        "almenon.arepl",
-        "kaih2o.python-resource-monitor",
-        "visualstudioexptteam.intellicode-api-usage-examples",
-        "tamasfe.even-better-toml",
-        "ms-azuretools.vscode-docker"
-    ]
+    "recommendations": []
 }
